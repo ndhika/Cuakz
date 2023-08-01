@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuakz</title>
+    
+    <!--CSS link-->
+    <link rel="stylesheet" href="style.css">
+    
+    <!--goggle font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500&family=Montserrat:ital,wght@0,600;0,700;1,500&family=Poppins:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+
+    <!--scroll animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--feather icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+    <div class="squad">
+        <a href="#" class="logo"> CHUAKZ SQUAD</a>
+    </div>
+    <marquee behavior="scroll" direction="left" scrollamount="15" class="moving-text" >
+        <p>| Chuakz Cerdas | Chuakz Rajin | Chuakz Baik | Chuakz Cerdas | Chuakz Rajin | Chuakz Baik |</p>
+    </marquee>
+
+    
+        <header>
+            <ul class="navlist">
+                <li><a href="https://linktr.ee/pplgthree"> Home</a></li>
+                <li><a href="https://ndhika.github.io/biodataku/"> About</a></li>
+                <li><a href="https://drive.google.com/drive/folders/1-gtHU9kDkMT1zuDPV1Ksz1_m9vAJyarb"> Memories</a></li>
+            </ul>
+            <div id="menu-icon" class="bx-x"><i data-feather="menu"></i></div>
+        </header>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Kegiatan Chuakz Squad</h2>
+                <h3>Xl PPLG 3</h3>  
+                <p>Kelas menciptakan lingkungan yang mendukung pengembangan diri,<br> 
+                    di mana aspek intelektual, emosional, dan sosial semua berperan penting. Dengan<br> 
+                    keberagaman siswa dan pengalaman belajar yang berbeda, kelas menjadi sarana yang kaya<br> 
+                    untuk belajar dari satu sama lain dan menerima perbedaan dengan penuh pengertian.</p>
+                <button id="scrollButton" onclick="toggleTable()">Lihat Jadwal</button> 
+                <div id="hero-img">
+                    <img src="framefoto.png" alt="Memories">
+                </div>
+            </div>
+            
+            <!-- Bagian table-->
+            <div class="table-container" id="tableContainer" style="display: none;">
+            <table cellspacing="2" cellpadding="25" border="1px">
+                <tr>
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                </tr>
+                <tr>
+                    <th>Senin</th>
+                    <td colspan="6"style="text-align: center;">KRPL</td>
+                    <td colspan="0"style="text-align: center;">BJW</td>
+                    <td colspan="3"style="text-align: center;">BIN</td>
+                </tr>
+                <tr>
+                    <th>Selasa</th>
+                    <td colspan="6"style="text-align: center;">KRPL</td>
+                    <td colspan="4"style="text-align: center;">RBT</td>
+                </tr>
+                <tr>
+                    <th>Rabu</th>
+                    <td colspan="2"style="text-align: center;">SJR</td>
+                    <td colspan="4"style="text-align: center;">BNG</td>
+                    <td colspan="2"style="text-align: center;">POR</td>
+                    <td colspan="2"style="text-align: center;">PPS</td>
+                </tr>
+                <tr>
+                    <th>Kamis</th>
+                    <td colspan="6"style="text-align: center;">KRPL</td>
+                    <td colspan="3"style="text-align: center;">MTK</td>
+                    <td colspan="0"style="text-align: center;">BJW</td>
+                </tr>
+                <tr>
+                    <th>Jumat</th>
+                    <td colspan="3"style="text-align: center;">PAG</td>
+                    <td colspan="5"style="text-align: center;">PKK</td>
+                    <td colspan="2"style="text-align: center;">   </td>
+                </tr>
+            </table>
+            </div>
+
+        <!-- Bagian Daftar siswa-->
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="55" class="daftar-2" id="siswa">
+            <h3>Daftar Siswa</h3>
+            <div class="card-1">
+                <ul type="square">
+                    <li>Adinda Ayudya Lestari</li>
+                    <li>Afriansyah Yogatama</li>
+                    <li>Amiruddin Aziz</li>
+                    <li style="color: rgb(0, 255, 221);"><strong>Andhika Hisyam M.R</strong></li>
+                    <li>Anindya Wulandari</li>
+                    <li>Ata Al Almer</li>
+                    <li>Ayudhya Naja Adinda</li>
+                </ul>
+            </div>
+            
+            <div class="card-2">
+                <ul type="square">
+                    <li>Daniswara Zavier P.A</li>
+                    <li>Dirada Alif Saindeva</li>
+                    <li>Ghania Aqeela Ara K</li>
+                    <li>Helga Olivia</li>
+                    <li>Jhesaya Giovani A</li>
+                    <li>Leonard Alfareno</li>
+                    <li>Luky Pasya Y</li>
+                </ul>
+            </div>
+            
+            <div class="card-3">
+                <ul type="square">
+                    <li>Maulid Marizka A.A</li>
+                    <li>Muhammad Yahya A</li>
+                    <li>Nabil Yamashita</li>
+                    <li>Nadhifa Salma A</li>
+                    <li>Najib Ghani Widodo</li>
+                    <li>Najwa Vania P</li>
+                    <li>Nayla Rizka M</li>
+                </ul>
+            </div>
+            
+            <div class="card-4">
+                <ul type="square">
+                    <li>Raditya febryandaru M</li>
+                    <li>Rafa Akmal Widjaya</li>
+                    <li>Rayhan Adesta A.P</li>
+                    <li>Ridho Hafid Pratama</li>
+                    <li>Rizal Ahmad F.T</li>
+                    <li>Sabrina Aisya</li>
+                    <li>Satura Izhato R</li>
+                </ul>
+            </div>
+            
+            <div class="card-5">
+                <ul type="square">
+                    <li>Seanirma Aida C</li>
+                    <li>Umar Hafidz</li>
+                    <li>Vania Kumala A</li>
+                    <li>Wahyu Aji S.N</li>
+                    <li>Wildan Al Azhar</li>
+                    <li>Yuhair Irsyad</li>
+                    <li>Zachdan Zarga D</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        
+        <!-- Bagian Piket Kelas-->
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="70" class="jadwal_piket" id="piket">
+            <h3>Jadwal Piket Kelas</h3>
+            <div class="card-piket-1">
+                <h4>Senin <hr></h4>
+                <ol>
+                    <li>Yahya</li>
+                    <li>Ara</li>
+                    <li>Aziz</li>
+                    <li>Danis</li>
+                    <li>Dinda</li>
+                    <li>Dirada</li>
+                    <li>Leonard</li>    
+                </ol>
+            </div>
+
+            <div class="card-piket-2">
+                <h4>Selasa <hr></h4>
+                <ol>
+                    <li>Wildan</li>
+                    <li>Aji</li>
+                    <li>Radit</li>
+                    <li>Rayhan</li>
+                    <li>Naja</li>
+                    <li>Vania</li>
+                    <li>Rizka</li>
+                </ol>
+            </div>
+
+            <div class="card-piket-3">
+                <h4>Rabu <hr></h4>
+                <ol>
+                    <li>Satura</li>
+                    <li>Umar</li>
+                    <li>Sean</li>
+                    <li>Nabil</li>
+                    <li>Nayla</li>
+                    <li>Nadhifa</li>
+                    <li>Sabrina</li>
+                </ol>
+            </div>
+
+            <div class="card-piket-4">
+                <h4>Kamis <hr></h4>
+                <ol>
+                    <li>Nathan</li>
+                    <li>Najib</li>
+                    <li style="color: orange;"><strong>Andhika</strong></li>
+                    <li>Najwa</li>
+                    <li>Yoga</li>
+                    <li>Rizal</li>
+                    <li>Rafa</li>
+                </ol>
+            </div>
+
+            <div class="card-piket-5">
+                <h4>Jumat <hr></h4>
+                <ol>
+                    <li>Zachdan</li>
+                    <li>Jeje</li>
+                    <li>Pasya</li>
+                    <li>Helga</li>
+                    <li>Anin</li>
+                    <li>Irsyad</li>
+                    <li>Ridho</li>
+                </ol>
+            </div>
+            </div>
+        
+        <!-- Bagian video-->
+        <div id="videoku" class="lebaran" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="55">
+            <h3>Video Lebaran Chuakz</h3>
+            <div class="video-1" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="65">
+                <br>
+                <video controls> <!-- width="520"height="280" -->
+                    <source src="Video WhatsApp 2023-07-21 pukul 09.57.06.mp4" type="video/mp4"> 
+                </video>
+                <h3>Video 1</h3>
+            </div>
+            <div class="video-2" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="65">
+                <br>
+                <video controls>
+                    <source src="Video WhatsApp 2023-07-21 pukul 09.57.12.mp4" type="video/mp4">
+                </video>
+                <h3>Video 2</h3>
+            </div>
+        </div>
+        
+        <!-- Bagian foto-->
+        <div id="foto" class="foto-lebaran" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="40">
+            <h3>Foto Lebaran Chuakz</h3>
+            <div class="foto-1" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="55">
+                <br>
+                <img src="Gambar WhatsApp 2023-07-21 pukul 10.05.29.jpg" alt="image 1"> <!-- width="520"height="280" -->
+                <h3>Foto 1</h3>
+            </div>
+            <div class="foto-2" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="55">
+                <br>
+                <img src="Gambar WhatsApp 2023-07-21 pukul 10.05.30.jpg" alt="image 2">
+                <h3>Foto 2</h3>
+            </div>
+        </div>
+    
+        <!-- Bagian footer-->
+        <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/pplgtigaa/"><i data-feather="instagram"></i></a>
+                <a href="https://open.spotify.com/playlist/0Q6qt3kPyP9TsqNSYwz3aT"><i data-feather="headphones"></i></a>
+            </div>
+        
+            <div class="credit">
+            <p>Created by <a href="#">Andhika
+            </a>| &copy;2023</p>
+            </div>
+        </footer>
+    
+
+    </section>
+        
+    <script>
+    //tombol muncul dan hilang//
+    function toggleTable() {
+            var tableContainer = document.getElementById("tableContainer");
+            var table = document.getElementById("table-container");
+            var button = document.querySelector("button");
+            
+            if (tableContainer.style.display === "none") {
+                tableContainer.style.display = "block"; // Tampilkan tabel jika sembunyi
+                button.textContent = "Tutup Jadwal"; // Ubah teks tombol menjadi "Tutup Tabel"
+            } else {
+                tableContainer.style.display = "none"; // Sembunyikan tabel jika terlihat
+                button.textContent = "Lihat Jadwal"; // Ubah teks tombol menjadi "Tampilkan Tabel"
+            }
+        }
+    
+    
+    //scroll otomatis// 
+    const scrollButton = document.getElementById('scrollButton');
+    // Fungsi untuk melakukan scroll otomatis
+    function doAutoScroll() {
+    // Ubah nilai 'y' sesuai dengan posisi target yang ingin di-scroll
+    // geser ke bawah berapa piksel.
+    const y = 500;
+    // Gunakan 'scrollTo' untuk melakukan scroll otomatis
+    window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+    // Tambahkan event listener untuk mengikuti klik tombol
+    scrollButton.addEventListener('click', doAutoScroll);
+    
+    
+    //navbar open//
+    let menu = document.querySelector('#menu-icon');
+    let navlist = document.querySelector('.navlist');
+
+    menu.onclick = () => {
+        menu.classList.toggle('bx-x');
+        navlist.classList.toggle('open');
+    }
+
+    </script>
+
+
+<!--animasi tabel-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+<!--fother icons-->
+    <script>
+    feather.replace()
+    </script>
+
+</body>
+</html>
